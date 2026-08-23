@@ -210,8 +210,8 @@ public class HospitalPatientAdmissionSystem {
         String ageInput = scanner.nextLine();
         if (!ageInput.isEmpty()) patient.setAge(Integer.parseInt(ageInput));
 
-        System.out.print("Enter new Gender (current: " + patient.getGender() + "): ");
-        String gender = scanner.nextLine();
+        System.out.print("Enter new Gender (current:  " + patient.getGender() + "): ");
+        String gender = scanner.nextLine(); 
         if (!gender.isEmpty()) patient.setGender(gender);
 
         System.out.print("Enter new Medical Condition (current: " + patient.getMedicalCondition() + "): ");
