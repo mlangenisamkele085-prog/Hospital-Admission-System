@@ -238,17 +238,17 @@ public class HospitalPatientAdmissionSystem {
             System.out.println("\nNo patients registered.");
             return;
         }
-        System.out.println("\n--- ALL REGISTERED PATIENTS ---");
+        System.out.println("\n ALL REGISTERED PATIENTS");
         for (Patient p : patients) {
             p.displayDetails();
-            System.out.println("-----------------------------");
+            System.out.println("  ");
         }
     }
 
     private static void bedManagementMenu() {
         int choice;
         do {
-            System.out.println("\n--- BED MANAGEMENT ---");
+            System.out.println("\n BED MANAGEMENT");
             System.out.println("1. Allocate Bed to Inpatient");
             System.out.println("2. Release Bed");
             System.out.println("3. Display Ward Layout");
@@ -410,20 +410,20 @@ public class HospitalPatientAdmissionSystem {
     }
 
     private static void displayWardLayout() {
-        System.out.println("\n--- WARD LAYOUT (4 x 5) ---");
+        System.out.println("\nWARD LAYOUT ");
         System.out.println("Available: B01-B20 | Occupied: X01-X20");
-        System.out.println("----------------------------------------");
+        System.out.println("  ");
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 5; j++) {
                 System.out.print(beds[i][j] + "  ");
             }
             System.out.println();
         }
-        System.out.println("----------------------------------------");
+        System.out.println("   ");
     }
 
     private static void displayAvailableBeds() {
-        System.out.println("\n--- AVAILABLE BEDS ---");
+        System.out.println("\nAVAILABLE BEDS ");
         boolean found = false;
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 5; j++) {
@@ -440,7 +440,7 @@ public class HospitalPatientAdmissionSystem {
     }
 
     private static void displayOccupiedBeds() {
-        System.out.println("\n--- OCCUPIED BEDS ---");
+        System.out.println("\n OCCUPIED BEDS");
         boolean found = false;
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 5; j++) {
@@ -459,7 +459,7 @@ public class HospitalPatientAdmissionSystem {
     private static void reportsMenu() {
         int choice;
         do {
-            System.out.println("\n--- REPORTS ---");
+            System.out.println("\nREPORTS ");
             System.out.println("1. Display All Patients");
             System.out.println("2. Display Available Beds");
             System.out.println("3. Display Occupied Beds");
@@ -494,7 +494,7 @@ public class HospitalPatientAdmissionSystem {
                     System.out.printf("\nWard Occupancy Percentage: %.2f%%\n", percentage);
                     break;
                 case 7:
-                    System.out.println("Returning to main menu...");
+                    System.out.println("Return to main menu");
                     break;
                 default:
                     System.out.println("Invalid choice.");
