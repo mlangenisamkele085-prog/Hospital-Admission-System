@@ -61,7 +61,7 @@ public class HospitalPatientAdmissionSystem {
     private static void patientManagementMenu() {
         int choice;
         do {
-            System.out.println("\n--- PATIENT MANAGEMENT ---");
+            System.out.println("\nPATIENT MANAGEMENT");
             System.out.println("1. Register Patient");
             System.out.println("2. Search Patient");
             System.out.println("3. Update Patient");
