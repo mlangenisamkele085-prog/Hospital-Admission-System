@@ -43,7 +43,7 @@ public class HospitalPatientAdmissionSystem {
                     System.out.println("Exiting system...");
                     break;
                 default:
-                    System.out.println("Invalid choice. Please try again.");
+                    System.out.println("Invalid choice.Please try again.");
             }
         } while (choice != 4);
     }
