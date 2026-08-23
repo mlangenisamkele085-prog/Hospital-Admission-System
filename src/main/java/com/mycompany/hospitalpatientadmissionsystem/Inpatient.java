@@ -33,7 +33,7 @@ public class Inpatient extends Patient {
         this.bedNumber = bedNumber; 
     }
 
-    @Override
+     @Override
     public void displayDetails() {
         super.displayDetails();
         System.out.println("Ward Number: " + wardNumber);
