@@ -20,7 +20,7 @@ public class HospitalPatientAdmissionSystem {
         int choice;
 
         do {
-            System.out.println("\n===== MEDICARE HOSPITAL PATIENT ADMISSION SYSTEM =====");
+            System.out.println("\nMEDICARE HOSPITAL PATIENT ADMISSION SYSTEM");
             System.out.println("1. Patient Management");
             System.out.println("2. Bed Management");
             System.out.println("3. Reports");
