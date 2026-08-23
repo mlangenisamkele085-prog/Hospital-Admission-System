@@ -98,7 +98,7 @@ public class HospitalPatientAdmissionSystem {
     }
 
     private static void registerPatient() {
-        System.out.println("\n--- REGISTER NEW PATIENT ---");
+        System.out.println("\nREGISTER NEW PATIENT");
         System.out.print("Enter Patient ID: ");
         String id = scanner.nextLine();
 
@@ -123,7 +123,7 @@ public class HospitalPatientAdmissionSystem {
         System.out.print("Enter Medical Condition: ");
         String condition = scanner.nextLine();
 
-        System.out.println("Select Patient Category:");
+        System.out.println("Select Patient Category?");
         System.out.println("1. Inpatient");
         System.out.println("2. Outpatient");
         System.out.println("3. Emergency");
