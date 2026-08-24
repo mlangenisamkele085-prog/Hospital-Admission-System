@@ -17,7 +17,7 @@ import java.util.ArrayList;
  *
  * @author Student
  */
-// ==================== BedManagementTest.java ====================
+// 
 
 public class BedmangementTest {
     
